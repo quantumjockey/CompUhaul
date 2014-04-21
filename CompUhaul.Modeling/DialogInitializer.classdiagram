@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="cddc8fff-dfe1-4ccd-8a4f-1ddbcb32ffa4" name="DialogInitializer" linkedPackageId="59048179-08bc-40c1-a781-68e5c157a805" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b4a432bd-bc57-4cef-aa89-3df8c736fd20">
+      <profileInstance Id="2c07fbc6-f3fe-43d1-a554-56433b85455a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d8434d43-f012-45d6-8e63-88a570bf2d8c">
+      <profileInstance Id="6e8eac61-be9a-428a-bf9c-330464df66f0" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="919278cf-bf3f-4b19-b929-2a6d50e4d4a0" name="DialogInitializer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="443b2c34-3e8c-42d6-a2f8-797b91c1890f" />
+        <ownedOperationsInternal>
+          <operation Id="e5f916e3-1251-4a4c-b675-72b7a058218a" name="InitializeFolderBrowserDialog" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="feb4a93e-9906-455b-8d9f-21a39150fb02" />
+          </operation>
+          <operation Id="38ee903e-a3f2-437d-a71d-16d377a9066e" name="InitializeOpenFromFileDialog" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="22df03de-2c8e-469c-8ac1-1c57863213d3" />
+          </operation>
+          <operation Id="fb41af73-4cbb-43a5-9cb2-4acfb506974b" name="InitializeSaveToFileDialog" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a64e3cc9-42dc-4d91-b9e9-618631e73b52" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="59048179-08bc-40c1-a781-68e5c157a805" name="CompUhaul.Modeling">
+    <elementDefinition Id="e0aa4994-1df6-4d5b-b9b2-94291cb444d1" />
+  </package>
+</logicalClassDesignerModel>

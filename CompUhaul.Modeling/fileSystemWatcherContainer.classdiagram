@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="63a9d93a-5e76-4df4-9de8-4dd2c4d7c34d" name="fileSystemWatcherContainer" linkedPackageId="c664dfa2-588d-45ab-97a9-5e9cdc15492c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c369f1c4-3a34-4102-a339-d5f66982afe9">
+      <profileInstance Id="39d5667c-7443-4eb8-8807-62e306d82da8" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="df66794e-b319-4b34-b71f-1ca627d78819">
+      <profileInstance Id="d107b7ef-de8f-42c5-94f0-f47af6905195" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e0a0f82e-90d5-44e3-bf28-4aec264d1b5b" name="fileSystemWatcherContainer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="57e047d9-82d7-4ed3-9894-ad7c8a33739b" />
+        <ownedAttributesInternal>
+          <property Id="13289683-e916-413a-aaea-4545738f1a36" name="ExtensionsFiltered" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7d552be0-90bf-4196-bf11-82ec252c59ce" />
+          </property>
+          <property Id="3e74cdce-0b0e-4ee1-b9a0-aec08964819b" name="FullPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5e12c486-f07d-4606-811c-0b8938735d7d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="c664dfa2-588d-45ab-97a9-5e9cdc15492c" name="CompUhaul.Modeling">
+    <elementDefinition Id="e0aa4994-1df6-4d5b-b9b2-94291cb444d1" />
+  </package>
+</logicalClassDesignerModel>

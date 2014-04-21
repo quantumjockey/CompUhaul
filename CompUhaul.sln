@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompUhaul", "CompUhaul\CompUhaul.csproj", "{3995F027-97C3-4B83-8A64-DDD36E1A43A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompUhaul.Test", "CompUhaul.Test\CompUhaul.Test.csproj", "{2EDB1272-A508-4D90-864A-86463707ABA2}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "CompUhaul.Modeling", "CompUhaul.Modeling\CompUhaul.Modeling.modelproj", "{74592F95-C41F-4370-B606-D9444232D9A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3995F027-97C3-4B83-8A64-DDD36E1A43A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3995F027-97C3-4B83-8A64-DDD36E1A43A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3995F027-97C3-4B83-8A64-DDD36E1A43A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3995F027-97C3-4B83-8A64-DDD36E1A43A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDB1272-A508-4D90-864A-86463707ABA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDB1272-A508-4D90-864A-86463707ABA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDB1272-A508-4D90-864A-86463707ABA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDB1272-A508-4D90-864A-86463707ABA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74592F95-C41F-4370-B606-D9444232D9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74592F95-C41F-4370-B606-D9444232D9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74592F95-C41F-4370-B606-D9444232D9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74592F95-C41F-4370-B606-D9444232D9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

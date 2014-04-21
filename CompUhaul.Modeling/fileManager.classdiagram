@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="d7b36f16-a6d8-48e5-ac6a-783aaf5a1e2c" name="fileManagerBase" linkedPackageId="bbb5750a-e84c-4bc7-8111-3e38721f7855" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f9ed7745-c9ef-4408-8296-ad451f1ee5ec">
+      <profileInstance Id="11cffa0a-6d37-45d2-931c-9013a85b0f43" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1644029c-afbd-491b-8c94-54ee89282f16">
+      <profileInstance Id="0f6ee9e4-0e86-476a-a0b5-0938bb3251e8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="2cc2bfc0-806d-41a4-9499-a1ce50bc02f8" name="IfileManager" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="37b9990d-6115-4d05-b02b-9ea0a129fda4" />
+        <ownedAttributes>
+          <property Id="4251b778-8db4-4b30-95cc-7c33f032f010" name="AppDataPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ee8971cc-b24b-4dd8-9d90-73074b6333ba" />
+          </property>
+          <property Id="07a76676-f827-4606-87ed-9b7d28ea8736" name="ApplicationFolder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a9a6ff0e-14e6-4097-9813-23c5d30be377" />
+          </property>
+          <property Id="4ac22a55-729c-416b-84cc-3a12274f826e" name="ApplicationFolderPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a30de446-81db-4517-a8d9-72a3ad4c371e" />
+          </property>
+          <property Id="6649d8b0-3e41-4f60-bc11-a73b62689937" name="CompanyFolder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="811134ea-5a95-4b96-984f-ef8db03dcee5" />
+          </property>
+          <property Id="8426a8e2-6bc2-4847-8d74-af8c7bb34316" name="CompanyFolderPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c8d28504-e621-4735-afe5-b97dc0e0b47f" />
+          </property>
+          <property Id="b7848da9-f7ba-403e-ac4a-cb9a92d8203e" name="PathSeparator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="544eaa62-c465-4ffe-ab07-47119a18665d" />
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation Id="ebd91143-c6ed-40da-ae91-a4dcd24b195b" name="GetApplicationFolderName" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1ded32d9-a30f-4f83-83c5-c247a555b491" />
+          </operation>
+          <operation Id="a495b099-e33e-4c33-a61e-0e017a166acd" name="GetCompanyFolderName" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b9cab383-58d6-4a43-867f-ea4bf442bd40" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9e4c3b83-81c2-44c5-9f9a-c8ea28e34999" name="fileManagerBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ac4cd320-ccf3-4369-828b-57f40566f0b3" />
+        <suppliersInternal>
+          <interfaceRealization Id="91f6f6fa-3664-469d-b71e-7ffeb8f3efe1">
+            <interfaceMoniker Id="2cc2bfc0-806d-41a4-9499-a1ce50bc02f8" LastKnownName="IfileManager" />
+            <elementDefinition Id="9a2d5c9f-426f-403a-a1c0-4c6f9ddc15f3" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="fb3eb479-e1aa-4d18-9107-30e34fe2bda0" name="PathSeparator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ba410507-0a1d-48d0-9528-d408389491b4" />
+          </property>
+          <property Id="f5032ae7-ea34-4848-82c6-a97afc298ecd" name="AppDataPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e72ec117-2786-4ce9-b676-f4b109a6b9e8" />
+          </property>
+          <property Id="f48bd6fd-796a-429f-b2f5-796ea070e116" name="ApplicationFolder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3caf7beb-89a1-478b-ba93-1bd0d3a57245" />
+          </property>
+          <property Id="7d8ef2ee-8b19-4cb7-8647-be4246cb2b8c" name="ApplicationFolderPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f716bbe2-fa50-4098-9f61-8159d925b1b6" />
+          </property>
+          <property Id="9bbcd21a-1444-4847-afee-18ce0acf4734" name="CompanyFolder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="73831693-198c-4fa4-87e7-ec63572479e4" />
+          </property>
+          <property Id="e6970de6-7021-462d-99c2-030ac820f121" name="CompanyFolderPath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c69756d3-9ec5-44aa-aacb-b594147eac40" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="0efd8c8c-cd52-483d-a9da-49172ff2a268" name="GetApplicationFolderName" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="10e2780c-a95e-4e19-91d1-966a516be704" />
+          </operation>
+          <operation Id="56bbc77e-dcfd-4a97-8871-021f76e81c2f" name="GetCompanyFolderName" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7ffd731a-1391-430c-9b4d-1ec0c381d266" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="bbb5750a-e84c-4bc7-8111-3e38721f7855" name="CompUhaul.Modeling">
+    <elementDefinition Id="e0aa4994-1df6-4d5b-b9b2-94291cb444d1" />
+  </package>
+</logicalClassDesignerModel>
