@@ -4,7 +4,6 @@
 using CompUhaul.Dialogs;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.IO;
 using System.Windows.Forms;
 
 #endregion
@@ -12,9 +11,6 @@ using System.Windows.Forms;
 
 namespace CompUhaul.Test.Dialogs
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "CompUhaul.Dialogs.DialogInitializer" class.
-    /// </summary>
     [TestClass]
     public class DialogInitializerTest
     {
@@ -42,29 +38,6 @@ namespace CompUhaul.Test.Dialogs
         public DialogInitializerTest()
         {
             _defaultDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-        }
-
-        #endregion
-
-        ////////////////////////////////////////
-        #region TestContext Components (Auto-Generated)
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
         }
 
         #endregion

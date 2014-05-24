@@ -4,16 +4,12 @@
 using CompUhaul.Files;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.IO;
 
 #endregion
 ///////////////////////////////////////
 
 namespace CompUhaul.Test.Files
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "CompUhaul.Files.fileSystemWatcherContainer" class.
-    /// </summary>
     [TestClass]
     public class fileSystemWatcherContainerTest
     {
@@ -40,29 +36,6 @@ namespace CompUhaul.Test.Files
         public fileSystemWatcherContainerTest()
         {
             _testPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-        }
-
-        #endregion
-
-        ////////////////////////////////////////
-        #region TestContext Components (Auto-Generated)
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
         }
 
         #endregion

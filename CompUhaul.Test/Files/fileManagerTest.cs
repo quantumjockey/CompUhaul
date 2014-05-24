@@ -11,9 +11,6 @@ using System.Reflection;
 
 namespace CompUhaul.Test.Files
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "CompUhaul.Files.fileManager" class.
-    /// </summary>
     [TestClass]
     public class fileManagerTest
     {
@@ -43,29 +40,6 @@ namespace CompUhaul.Test.Files
         public fileManagerTest()
         {
             _defaultAppDataDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-        }
-
-        #endregion
-
-        ////////////////////////////////////////
-        #region TestContext Components (Auto-Generated)
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
         }
 
         #endregion
