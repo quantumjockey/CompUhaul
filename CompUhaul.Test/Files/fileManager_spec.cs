@@ -12,7 +12,7 @@ using System.Reflection;
 namespace CompUhaul.Test.Files
 {
     [TestClass]
-    public class fileManagerTest
+    public class fileManager_spec
     {
         ////////////////////////////////////////
         #region Constants
@@ -37,7 +37,7 @@ namespace CompUhaul.Test.Files
         /// <summary>
         /// Test initialization.
         /// </summary>
-        public fileManagerTest()
+        public fileManager_spec()
         {
             _defaultAppDataDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         }

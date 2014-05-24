@@ -11,7 +11,7 @@ using System;
 namespace CompUhaul.Test.Files
 {
     [TestClass]
-    public class fileSystemWatcherContainerTest
+    public class fileSystemWatcherContainer_spec
     {
         ////////////////////////////////////////
         #region Constants
@@ -33,7 +33,7 @@ namespace CompUhaul.Test.Files
         /// <summary>
         /// Initialize test conditions.
         /// </summary>
-        public fileSystemWatcherContainerTest()
+        public fileSystemWatcherContainer_spec()
         {
             _testPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         }

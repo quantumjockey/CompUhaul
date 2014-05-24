@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace CompUhaul.Test.Dialogs
 {
     [TestClass]
-    public class DialogInitializerTest
+    public class DialogInitializer_spec
     {
         ////////////////////////////////////////
         #region Constants
@@ -35,7 +35,7 @@ namespace CompUhaul.Test.Dialogs
         /// <summary>
         /// Test initialization.
         /// </summary>
-        public DialogInitializerTest()
+        public DialogInitializer_spec()
         {
             _defaultDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         }
