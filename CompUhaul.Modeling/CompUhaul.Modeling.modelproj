@@ -22,36 +22,39 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="Class Diagrams\Dialogs\DialogInitializer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Dialogs\DialogInitializer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Dialogs\DialogInitializer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Files\fileManager.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Files\fileManager.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Files\fileManager.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Files\fileSystemWatcherContainer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Files\fileSystemWatcherContainer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Files\fileSystemWatcherContainer.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1708.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1708.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Class Diagrams\Dialogs" />
+    <Folder Include="Class Diagrams\Files" />
     <Folder Include="ModelDefinition\" />
-    <Content Include="DialogInitializer.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="DialogInitializer.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>DialogInitializer.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="fileManager.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="fileManager.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>fileManager.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="fileSystemWatcherContainer.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="fileSystemWatcherContainer.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>fileSystemWatcherContainer.classdiagram</DependentUpon>
-    </Content>
     <Content Include="ModelDefinition\CompUhaul.Modeling.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Class Diagrams" />
   </ItemGroup>
 </Project>
