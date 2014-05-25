@@ -50,7 +50,7 @@ namespace CompUhaul.Paths
         /// <summary>
         /// Returns the complete heiarchy from the file or directory specified down to the drive path.
         /// </summary>
-        /// <returns>Array containing sequential paths leading to the specified path.</returns>
+        /// <returns>Array containing components of the specified path, ordered sequentially.</returns>
         public string[] GetHeirarchy()
         {
             char pathSeparator = '\\';
