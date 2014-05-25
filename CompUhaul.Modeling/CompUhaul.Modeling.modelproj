@@ -43,6 +43,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Class Diagrams\Files\fileSystemWatcherContainer.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Class Diagrams\Paths\path.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Paths\path.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Paths\path.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1708.uml">
       <SubType>Content</SubType>
     </Content>
@@ -54,6 +61,7 @@
     </Content>
     <Folder Include="Class Diagrams\Dialogs" />
     <Folder Include="Class Diagrams\Files" />
+    <Folder Include="Class Diagrams\Paths" />
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\CompUhaul.Modeling.uml">
       <SubType>Content</SubType>
