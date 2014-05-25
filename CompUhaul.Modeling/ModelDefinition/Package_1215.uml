@@ -11,6 +11,15 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="3653e85b-a220-4c14-9025-773db0ec5bdb">
+            <interfaceMoniker
+              Id="9b10c146-6082-4e72-b6c2-3095f93f79b5"
+              LastKnownName="Ipath"
+              LastKnownLocation="Package_1215.uml" />
+          </dependency>
+        </suppliersInternal>
         <ownedAttributesInternal>
           <property
             Id="8cc826ff-8276-4f82-8b61-ac6798805cb2"
@@ -80,6 +89,46 @@
           </dependency>
         </suppliersInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9b10c146-6082-4e72-b6c2-3095f93f79b5"
+        name="Ipath"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedAttributes>
+          <property
+            Id="b3aec4c0-9fc7-4686-b5ab-2a5e4bba0aa5"
+            name="Exists"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d33bac0c-8399-4613-a5a9-3e894aa9338e"
+            name="FullPath"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="818b46b5-1971-489e-8b58-2fa243820474"
+            name="GetHeirarchy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
     </packageHasNamedElement>
   </packagedElements>
 </package>

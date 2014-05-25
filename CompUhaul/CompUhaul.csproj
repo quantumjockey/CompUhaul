@@ -49,6 +49,7 @@
     <Compile Include="Files\IfileManager.cs" />
     <Compile Include="Paths\filePath.cs" />
     <Compile Include="Paths\folderPath.cs" />
+    <Compile Include="Paths\Ipath.cs" />
     <Compile Include="Paths\path.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

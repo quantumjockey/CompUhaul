@@ -9,7 +9,7 @@ using System.IO;
 
 namespace CompUhaul.Paths
 {
-    public class path
+    public class path : Ipath
     {
         ////////////////////////////////////////
         #region Generic Fields
