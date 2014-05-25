@@ -47,6 +47,8 @@
     <Compile Include="Files\fileSystemWatcherContainer.cs" />
     <Compile Include="Files\fileManager.cs" />
     <Compile Include="Files\IfileManager.cs" />
+    <Compile Include="Paths\filePath.cs" />
+    <Compile Include="Paths\folderPath.cs" />
     <Compile Include="Paths\path.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

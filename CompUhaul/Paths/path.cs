@@ -72,7 +72,7 @@ namespace CompUhaul.Paths
         ////////////////////////////////////////
         #region Supporting Methods
 
-        private bool CheckIfPathExists(string path)
+        protected virtual bool CheckIfPathExists(string path)
         {
             if (File.Exists(path) || Directory.Exists(path))
                 return true;

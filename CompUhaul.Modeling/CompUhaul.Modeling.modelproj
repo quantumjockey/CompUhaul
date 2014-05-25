@@ -43,6 +43,20 @@
       <SubType>Content</SubType>
       <DependentUpon>Class Diagrams\Files\fileSystemWatcherContainer.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Class Diagrams\Paths\filePath.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Paths\filePath.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Paths\filePath.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\Paths\folderPath.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\Paths\folderPath.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\Paths\folderPath.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Class Diagrams\Paths\path.classdiagram">
       <SubType>Content</SubType>
     </Content>

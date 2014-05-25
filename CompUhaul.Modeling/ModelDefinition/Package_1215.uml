@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="af31d2c5-bc73-4bf5-8d4b-e7ba1cf8fce2"
   name="Paths" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -43,6 +43,42 @@
             concurrency="Sequential"
             isQuery="false" />
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4185c3de-5fee-48e3-b5fe-c810ad72e375"
+        name="filePath"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="eb5e831d-a7a5-4a41-88ac-c45df5773a20">
+            <classMoniker
+              Id="a9d2845b-8091-477f-8782-4c598f7c4ea5"
+              LastKnownName="path"
+              LastKnownLocation="Package_1215.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8aec48e3-294e-4f7d-b095-1b619993addd"
+        name="folderPath"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="02b02dfd-e77d-45b6-8cb7-8f468fb10d79">
+            <classMoniker
+              Id="a9d2845b-8091-477f-8782-4c598f7c4ea5"
+              LastKnownName="path"
+              LastKnownLocation="Package_1215.uml" />
+          </dependency>
+        </suppliersInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>
