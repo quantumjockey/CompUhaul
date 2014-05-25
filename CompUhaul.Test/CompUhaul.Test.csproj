@@ -54,6 +54,7 @@
     <Compile Include="Dialogs\DialogInitializer_spec.cs" />
     <Compile Include="Files\fileSystemWatcherContainer_spec.cs" />
     <Compile Include="Files\fileManager_spec.cs" />
+    <Compile Include="Paths\path_spec.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
