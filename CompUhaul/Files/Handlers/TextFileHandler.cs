@@ -23,15 +23,15 @@ namespace CompUhaul.Files.Handlers
         #region Data Retrieval
 
 
-        protected string ReadContentFromFile(string _filePath)
+        protected string ReadContentFromFile()
         {
             string _content = String.Empty;
 
             try
             {
-                if (File.Exists(_filePath))
+                if (base._dataFile.Exists)
                 {
-                    using (StreamReader FileReadObject = new StreamReader(_filePath))
+                    using (StreamReader FileReadObject = new StreamReader(base._dataFile.FullPath))
                     {
                         _content = FileReadObject.ReadToEnd();
                         FileReadObject.Close();
@@ -44,6 +44,18 @@ namespace CompUhaul.Files.Handlers
             }
 
             return _content;
+        }
+
+
+        protected string[][] ReadTabularContentFromFile()
+        {
+            string fileContent = ReadContentFromFile();
+
+            string[] linesInFile = SeparateFileDataByLine(fileContent);
+
+            string[][] columnsData = SeparateLineDataByColumn(linesInFile);
+
+            return columnsData;
         }
 
         #endregion
