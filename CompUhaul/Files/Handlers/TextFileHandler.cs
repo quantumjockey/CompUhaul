@@ -8,10 +8,17 @@ using System.IO;
 #endregion
 ///////////////////////////////////////
 
-namespace CompUhaul.Files
+namespace CompUhaul.Files.Handlers
 {
-    public abstract class FileHandler
+    public class TextFileHandler : FileHandler
     {
+        ////////////////////////////////////////
+        #region Constructor
+
+        public TextFileHandler(string _fullPath) : base(_fullPath) { }
+
+        #endregion
+
         ////////////////////////////////////////
         #region Data Retrieval
 

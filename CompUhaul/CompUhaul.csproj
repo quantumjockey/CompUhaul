@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dialogs\DialogInitializer.cs" />
-    <Compile Include="Files\FileHandler.cs" />
+    <Compile Include="Files\Handlers\FileHandler.cs" />
     <Compile Include="Files\fileSystemWatcherContainer.cs" />
     <Compile Include="Files\fileManager.cs" />
+    <Compile Include="Files\Handlers\TextFileHandler.cs" />
     <Compile Include="Files\IfileManager.cs" />
     <Compile Include="Paths\filePath.cs" />
     <Compile Include="Paths\folderPath.cs" />
